@@ -1,0 +1,60 @@
+/* .icon2 .electronics {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.icon2 .electronicsdiv button {
+	display: flex;
+	width: 80%;
+}
+.icon2 .electronicsdiv button h4 {
+	white-space: nowrap;
+	margin: 30px 0px 0px 20px;
+}
+.icon2 .electronics .electronicsdiv {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 10px;
+} */
+/* .icon2 button {
+	background-color: rgb(219, 230, 239);
+	border: none;
+	width: 100px;
+	height: 90px;
+}
+.icon2 button .icon2img {
+	width: 50px;
+	height: 50px;
+} */
+
+.icon2 button {
+	background-color: rgb(219, 230, 239);
+	border: none;
+	width: 100px;
+	height: 90px;
+}
+.icon2 button .icon2img {
+	width: 50px;
+	height: 50px;
+}
+
+.icon2 button .electronics {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.icon2 button .electronics .electronicsdiv {
+	height: 17vh;
+}
+.icon2 button .electronics .electronicsdiv button img {
+	width: 90px;
+	height: 90px;
+	margin: 10px 0px 0px -700px;
+}
+.icon2 .electronics .electronicsdiv button h4 {
+	white-space: nowrap;
+	font-size: 16px;
+	margin: -50px 0px 0px -240px;
+}

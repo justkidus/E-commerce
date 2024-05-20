@@ -1,0 +1,30 @@
+.icon5 button {
+	background-color: rgb(219, 230, 239);
+	border: none;
+	width: 100px;
+	height: 90px;
+}
+.icon5 button .icon5img {
+	width: 50px;
+	height: 50px;
+}
+
+.icon5 button .Automobile {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.icon5 button .Automobile .automobilediv {
+	height: 17vh;
+}
+.icon5 button .Automobile .automobilediv button img {
+	width: 90px;
+	height: 90px;
+	margin: 10px 0px 0px -700px;
+}
+.icon5 .Automobile .automobilediv button h4 {
+	white-space: nowrap;
+	font-size: 16px;
+	margin: -50px 0px 0px -240px;
+}

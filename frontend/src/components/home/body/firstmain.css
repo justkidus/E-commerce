@@ -1,0 +1,276 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.FirstBody_Components {
+	display: flex;
+	margin: 100px 0px 0px 15px;
+}
+.FirstBody_Components .FirstBody-C {
+	width: 150px;
+	height: 150px;
+}
+
+.firstbody {
+	background-color: rgb(219, 230, 239);
+	padding-top: -10px;
+	height: 85vh;
+}
+.firstbody .catagori {
+	display: flex;
+	padding: 20px 0px 0px 50px;
+}
+.firstbody .catagori button {
+	margin: 0px 0px 0px 20px;
+	background-color: rgb(219, 230, 239);
+	border: none;
+}
+.firstbody .firstbodyimg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	margin-left: 50px;
+	padding: 40px 0px 0px 0px;
+}
+
+.firstbody .firstbodyimg .firstbodyadveret {
+	width: 84%;
+	height: 450px;
+}
+.firstbody .firstbodyimg .firstbodyheading1 {
+	margin-right: 150px;
+	margin-left: 30px;
+	margin-top: -140px;
+}
+.firstbody .catagory .firstbodyimg {
+	margin-top: -45px;
+	background-color: rgb(219, 230, 239);
+	padding-top: -10px;
+}
+/* 
+.firstbody .catagori .icon2 .electronics {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.firstbody .catagori .icon2 .electronicsdiv button {
+	display: flex;
+	width: 80%;
+}
+.firstbody .catagori .icon2 .electronicsdiv button h4 {
+	white-space: nowrap;
+	margin: 30px 0px 0px 20px;
+}
+.firstbody .catagori .icon2 .electronics .electronicsdiv {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 10px;
+}
+ .firstbody .catagori .icon5 .Automobile {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.firstbody .catagori .icon5 .automobilediv {
+	margin-bottom: 10px;
+}
+.firstbody .catagori .icon5 .automobilediv button {
+	display: flex;
+	width: 80%;
+}
+.firstbody .catagori .icon5 .automobilediv button h4 {
+	white-space: nowrap;
+	margin: 30px 0px 0px 20px;
+} 
+
+.firstbody .catagori .icon8 .machineres {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.firstbody .catagori .icon8 .machineresdiv {
+	margin: 20px 0px 10px 0px;
+}
+.firstbody .catagori .icon8 .machineresdiv button {
+	display: flex;
+	width: 80%;
+}
+.firstbody .catagori .icon8 .machineresdiv button h4 {
+	white-space: nowrap;
+	margin: 30px 0px 0px 20px;
+}
+.firstbody .catagori .icon1 .pets {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.firstbody .catagori .icon1 .petsdiv {
+	margin: 20px 0px 10px 0px;
+}
+.firstbody .catagori .icon1 .petsdiv button {
+	display: flex;
+	width: 80%;
+}
+.firstbody .catagori .icon1 .petsdiv button h4 {
+	white-space: nowrap;
+	margin: 30px 0px 0px 20px;
+}
+
+.firstbody .catagori .icon9 .maintenance {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.firstbody .catagori .icon9 .maintenacediv {
+	padding: 20px 0px 10px -90px;
+	margin: 20px 0px 0px 0px;
+}
+.firstbody .catagori .icon9 button .maintenacediv {
+	display: flex;
+	width: 80%;
+}
+.firstbody .catagori .icon9 .maintenacediv img {
+	margin: 10px 0px 0px 15px;
+}
+.firstbody .catagori .icon9 .maintenacediv h4 {
+	white-space: nowrap;
+	margin: 30px 0px 0px 20px;
+}
+
+.firstbody .catagori .icon6 .property {
+	width: 70%;
+	height: 110vh;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.firstbody .catagori .icon6 .property .propertydiv {
+	padding: 20px 0px 10px -90px;
+	margin: 20px 0px 0px 0px;
+}
+.firstbody .catagori .icon6 button .property .propertydiv {
+	display: flex;
+	width: 80%;
+}
+.firstbody .catagori .icon6 .property .propertydiv img {
+	margin: 10px 0px 0px 15px;
+}
+.firstbody .catagori .icon6 .property .propertydiv h4 {
+	white-space: nowrap;
+	margin: 30px 0px 0px 20px;
+}
+
+.firstbody .catagori .icon3 .furnituire {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.firstbody .catagori .icon3 .furnituire .furnituirediv {
+	padding: 20px 0px 10px -90px;
+	margin: 20px 0px 0px 0px;
+}
+.firstbody .catagori .icon3 button .furnituire .furnituirediv {
+	display: flex;
+	width: 80%;
+}
+.firstbody .catagori .icon3 .furnituire .furnituirediv img {
+	margin: 10px 0px 0px 15px;
+}
+.firstbody .catagori .icon3 .furnituire .furnituirediv h4 {
+	white-space: nowrap;
+	margin: 30px 0px 0px 20px;
+}
+
+.firstbody .catagori .icon4 .gym {
+	width: auto;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.firstbody .catagori .icon4 .gym .gymdiv {
+	padding: 20px 0px 10px -90px;
+	margin: 20px 0px 0px 0px;
+}
+.firstbody .catagori .icon4 button .gym .gymdiv {
+	display: flex;
+	width: auto;
+}
+.firstbody .catagori .icon4 .gym .gymdiv img {
+	margin: 10px 0px 0px 15px;
+}
+.firstbody .catagori .icon4 .gym .gymdiv h4 {
+	white-space: nowrap;
+	margin: 30px 0px 0px 20px;
+}
+
+.firstbody .catagori .icon10 .household {
+	width: auto;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.firstbody .catagori .icon10 .household .householddiv {
+	padding: 20px 0px 10px -90px;
+	margin: 20px 0px 0px 0px;
+}
+.firstbody .catagori .icon10 button .household .householddiv {
+	display: flex;
+	width: auto;
+}
+.firstbody .catagori .icon10 .household .householddiv img {
+	margin: 10px 0px 0px 15px;
+}
+.firstbody .catagori .icon10 .household .householddiv h4 {
+	white-space: nowrap;
+	margin: 30px 0px 0px 20px;
+}
+
+.firstbody .catagori .icon11 .pottery {
+	width: auto;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.firstbody .catagori .icon11 .pottery .potterydiv {
+	padding: 20px 0px 10px -90px;
+	margin: 20px 0px 0px 0px;
+}
+.firstbody .catagori .icon11 button .pottery .potterydiv {
+	display: flex;
+	width: auto;
+}
+.firstbody .catagori .icon11 .pottery .potterydiv img {
+	margin: 10px 0px 0px 15px;
+}
+.firstbody .catagori .icon11 .pottery .potterydiv h4 {
+	white-space: nowrap;
+	margin: 30px 0px 0px 20px;
+}
+
+.firstbody .catagori .icon12 .watch {
+	width: auto;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.firstbody .catagori .icon12 .watch .watchdiv {
+	padding: 20px 0px 10px -90px;
+	margin: 20px 0px 0px 0px;
+}
+.firstbody .catagori .icon12 button .watch .watchdiv {
+	display: flex;
+	width: auto;
+}
+.firstbody .catagori .icon12 .watch .watchdiv img {
+	margin: 10px 0px 0px 15px;
+}
+.firstbody .catagori .icon12 .watch .watchdiv h4 {
+	 white-space: nowrap; 
+	margin: 30px 0px 0px 20px;
+} */

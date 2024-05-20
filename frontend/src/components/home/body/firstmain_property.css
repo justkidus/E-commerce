@@ -1,0 +1,30 @@
+.icon6 button {
+	background-color: rgb(219, 230, 239);
+	border: none;
+	width: 100px;
+	height: 90px;
+}
+.icon6 button .icon6img {
+	width: 50px;
+	height: 50px;
+}
+
+.icon6 button .property {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.icon6 button .property .propertydiv {
+	height: 17vh;
+}
+.icon6 button .property .propertydiv button img {
+	width: 90px;
+	height: 90px;
+	margin: 10px 0px 0px -700px;
+}
+.icon6 button .property .propertydiv button h4 {
+	white-space: nowrap;
+	font-size: 16px;
+	margin: -50px 0px 0px -240px;
+}

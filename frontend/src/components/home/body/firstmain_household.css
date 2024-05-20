@@ -1,0 +1,30 @@
+.icon10 button {
+	background-color: rgb(219, 230, 239);
+	border: none;
+	width: 100px;
+	height: 90px;
+}
+.icon10 button .icon10img {
+	width: 50px;
+	height: 40px;
+}
+
+.icon10 button .household {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.icon10 button .household .householddiv {
+	height: 17vh;
+}
+.icon10 button .household .householddiv button img {
+	width: 90px;
+	height: 90px;
+	margin: 10px 0px 0px -700px;
+}
+.icon10 button .household .householddiv button h4 {
+	white-space: nowrap;
+	font-size: 16px;
+	margin: -50px 0px 0px -400px;
+}

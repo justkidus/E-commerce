@@ -1,0 +1,82 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.myprofilediv {
+	width: 100%;
+	height: 100vh;
+}
+.myprofilediv .myprofileleft {
+	width: 30%;
+	height: 100vh;
+	background-color: #08415c;
+	color: white;
+}
+.myprofilediv .myprofileleft p {
+	margin: 10px 0px 0px 150px;
+	font-size: 15px;
+}
+.myprofilediv .myprofileleft button {
+	background-color: #08415c;
+	border: 0px;
+	color: white;
+	font-weight: bold;
+}
+.myprofilediv .myprofileleft img {
+	width: 150px;
+	height: 150px;
+	margin: 40px 0px 0px 0px;
+	border-radius: 100%;
+}
+.myprofilediv .myprofileleft .profile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.myprofilediv .myprofileleft .names {
+	margin: 20px 0px 0px 70px;
+}
+.myprofilediv .myprofileleft .names button {
+	background-color: white;
+	width: 200px;
+	height: 30px;
+	margin: 20px 0px 0px 0px;
+	font-weight: bold;
+}
+.myprofilediv .myprofileleft .names button .imgandbutton {
+	margin: 0px 0px 0px 0px;
+}
+.myprofilediv .myprofileleft .names button .imgandbutton h3 {
+	font-size: 16px;
+	margin: -30px 0px 0px 40px;
+	color: black;
+}
+.myprofilediv .myprofileleft .names button img {
+	height: 30px;
+	width: 30px;
+	margin: -5px 10px 0px -70px;
+}
+.myprofilediv .myprofileright {
+	width: 70%;
+	/* height: 100vh; */
+	/* background-color: #dedede; */
+	color: black;
+	float: right;
+	margin: -600px -100px 0px 600px;
+}
+.myprofilediv .myprofileright h2 {
+	margin: 0px 0px 10px -20px;
+}
+.myprofilediv .myprofileright .productsdiv {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 200px;
+	grid-column-gap: 20px;
+	grid-template-rows: 200px 200px;
+	margin: 0px 0px 0px -80px;
+	/* background-color: #dedede; */
+}
+.myprofilediv .myprofileright .productsdiv .products img {
+	width: 220px;
+	height: 300px;
+}

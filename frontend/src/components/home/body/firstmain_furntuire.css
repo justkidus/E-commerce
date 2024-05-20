@@ -1,0 +1,30 @@
+.icon3 button {
+	background-color: rgb(219, 230, 239);
+	border: none;
+	width: 100px;
+	height: 90px;
+}
+.icon3 button .icon3img {
+	width: 50px;
+	height: 50px;
+}
+
+.icon3 button .furnituire {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.icon3 button .furnituire .furnituirediv {
+	height: 17vh;
+}
+.icon3 button .furnituire .furnituirediv button img {
+	width: 90px;
+	height: 90px;
+	margin: 10px 0px 0px -700px;
+}
+.icon3 button .furnituire .furnituirediv button h4 {
+	white-space: nowrap;
+	font-size: 16px;
+	margin: -50px 0px 0px -240px;
+}

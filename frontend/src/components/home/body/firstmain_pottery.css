@@ -1,0 +1,29 @@
+.icon11 button {
+	background-color: rgb(219, 230, 239);
+	border: none;
+	width: 100px;
+	height: 90px;
+}
+.icon11 button .icon11img {
+	width: 50px;
+	height: 40px;
+}
+
+.icon11 button .pottery {
+	width: 70%;
+	height: auto;
+	background-color: rgb(219, 230, 239);
+	position: absolute;
+}
+.icon11 button .pottery .potterydiv {
+	height: 17vh;
+}
+.icon11 button .pottery .potterydiv button img {
+	width: 90px;
+	height: 90px;
+	margin: 10px 0px 0px -700px;
+}
+.icon11 button .pottery .potterydiv button h4 {
+	font-size: 16px;
+	margin: 0px 0px 0px -700px;
+}
