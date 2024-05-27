@@ -1,6 +1,8 @@
 const Product = require('../models/product');
+const { formidable } = require('formidable');
 
 const ErrorHandler = require('../utils/errorHandler');
+const path = require('path');
 
 const catchAsyncErrors = require('../middlewear/catchAsyncErrors');
 
@@ -10,11 +12,19 @@ const APIFeatures = require('../utils/apifeatures');
 // exports.newProduct = catchAsyncErrors(async (req, res, next) => {
 exports.newProduct = catchAsyncErrors(async (req, res, next) => {
 	req.body.user = req.user.id;
+	// let form = formidable({ uploadDir: path.join(__dirname, '../', 'uploads') });
+
+	// form.parse(req, function (err, files, fields) {
+	// 	console.log(err, fields, files, 'helo');
+	// });
+	console.log(req.body.name);
+	req.body.images = [{ public_id: '1', url: req.body.images }];
 	const product = await Product.create(req.body);
 
 	res.status(201).json({
 		success: true,
-		product,
+		// product,
+		// form,
 	});
 });
 // exports.getProducts = async (req, res, next) => {

@@ -6,9 +6,10 @@ const bodyparser = require('body-parser');
 const fileUpload = require('express-fileupload');
 
 app.use(express.json());
+app.use(express.urlencoded());
 app.use(cookieParser());
-app.use(bodyparser.urlencoded({ extended: true }));
-app.use(fileUpload());
+// app.use(bodyparser.urlencoded({ extended: true }));
+// app.use(fileUpload());
 //Middleware to handle errors
 
 app.use(errorMiddleware);

@@ -9,7 +9,16 @@ let Cart = () => {
 	const dispatch = useDispatch();
 
 	const { cartItems } = useSelector((state) => state.cart);
-
+	// const getTotalCartAmount = () => {
+	// 	let totalAmount = 0;
+	// 	for (const item in cartItems) {
+	// 		if (cartItems[item] > 0) {
+	// 			let itemInfo = Food_list.find((product) => product._id === item);
+	// 			totalAmount += itemInfo.price * cartItems[item];
+	// 		}
+	// 	}
+	// 	return totalAmount;
+	// };
 	return (
 		<>
 			<Fragment>
@@ -117,7 +126,8 @@ let Cart = () => {
 									</p>
 									<br />
 									<p>
-										Est. total: <span> $ 3456</span>
+										{/* Est. total: <span>{getTotalCartAmount()}</span> */}
+										{/* {Est. total :<span>$3546</span>} */}
 									</p>
 									<br />
 									<hr />

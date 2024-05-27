@@ -25,8 +25,12 @@ router.route('/products').get(getProducts);
 router.route('/admin/products').get(getAdminProducts);
 
 router.route('/product/:id').get(getSingleProduct);
+const multer = require('multer');
+const upload = multer({ dest: '../uploads/' });
 
-router.route('/products/new').post(isAuthenticatedUser, newProduct);
+router
+	.route('/products/new')
+	.post(isAuthenticatedUser, upload.single('images'), newProduct);
 
 router
 	.route('/product/:id')

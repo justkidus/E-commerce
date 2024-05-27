@@ -11,6 +11,7 @@ import Loader from '../../Nav bar/Loader';
 import { useAlert } from 'react-alert';
 import Pagination from 'react-js-pagination';
 import { useParams } from 'react-router-dom';
+import HorizontalPagination from '../pagination';
 const THIRED = ({ match }) => {
 	const [currentPage, setCurrentPage] = useState(1);
 	function setCurrentPageNo(pageNumber) {
@@ -59,10 +60,7 @@ const THIRED = ({ match }) => {
 			</div>
 
 			{resPerPage <= productsCount && (
-				<div
-					//  className="d-flex jusstify-content-center mt-5"
-					style={pagination}
-				>
+				<div className="d-flex jusstify-content-center mt-5" style={pagination}>
 					<Pagination
 						activePage={currentPage}
 						itemsCountPerPage={resPerPage}
@@ -76,14 +74,18 @@ const THIRED = ({ match }) => {
 						linkClass="page-link"
 					/>
 				</div>
+				// <HorizontalPagination />
 			)}
 		</Fragment>
 	);
 };
 let pagination = {
 	display: 'flex',
-	//justifyContent: 'center',
+	justifyContent: 'center',
 	marginTop: '155px',
+	display: 'incline',
+	flexWrap: 'nowrap',
+	color: 'black',
+	height: '30px',
 };
-
 export default THIRED;

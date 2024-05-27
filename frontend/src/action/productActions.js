@@ -53,18 +53,21 @@ export const newProduct = (productData) => async (dispatch) => {
 	try {
 		dispatch({ type: NEW_PRODUCT_REQUEST });
 
-		const { data } = await axios.post('/api/v1/products/new', productData);
+		const data = await fetch('/api/v1/products/new', {
+			method: 'post',
+			body: productData,
+		});
 
-		console.log(data);
-		dispatch({
-			type: NEW_PRODUCT_SUCCESS,
-			payload: data,
-		});
+		// console.log(data);
+		// dispatch({
+		// 	type: NEW_PRODUCT_SUCCESS,
+		// 	payload: data,
+		// });
 	} catch (error) {
-		dispatch({
-			type: NEW_PRODUCT_FAIL,
-			payload: error.response.data.message || 'an error occured',
-		});
+		// dispatch({
+		// 	type: NEW_PRODUCT_FAIL,
+		// 	payload: error.response.data.message || 'an error occured',
+		// });
 	}
 };
 
