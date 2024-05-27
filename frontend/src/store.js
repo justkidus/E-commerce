@@ -48,12 +48,13 @@ import {
 } from './redeucers/productreducers';
 import { CartReducers } from './redeucers/cartReducers';
 import { authReducer } from './redeucers/userreducer';
-import { userReducer } from 'react';
+//import { userReducer } from 'react';
+// import { userReducer } from './redeucers/userreducer';
 const reducer = combineReducers({
 	products: productsReducer,
 	productsDetails: ProductDetailsReducers,
 	auth: authReducer,
-	// user: userReducer,
+	User: authReducer,
 	cart: CartReducers,
 	newProduct: newProductReducer,
 });
@@ -64,9 +65,9 @@ const initialState = {
 			: [],
 	},
 	auth: {
-		user: localStorage.getItem('user')
-			? JSON.parse(localStorage.getItem('user'))
-			: null,
+		user: localStorage.getItem('User')
+			? JSON.parse(localStorage.getItem('User'))
+			: [],
 	},
 }; // Initial state if needed
 

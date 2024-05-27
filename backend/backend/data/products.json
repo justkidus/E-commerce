@@ -1,0 +1,97 @@
+[
+	{
+		"name": "san disk",
+		"price": "45.89",
+		"description": "ultra-fast card",
+		"rating": "4.5",
+		"images": [
+			{
+				"public_id": "products/tzfsnrli3szdnb4jgge",
+				"url": "https://pictures-ethiopia.jijistatic.com/3049788_MzAwLTQwMC00YzZkZjFiNjVj.webp"
+			}
+		],
+		"category": "Vehicle",
+		"seller": "",
+		"stock": 50,
+		"numofReviews": 32,
+		"reviews": []
+	},
+	{
+		"name": "tv",
+		"price": "45.89",
+		"description": "ultra-fast card",
+		"rating": "4.5",
+		"images": [
+			{
+				"public_id": "products/tzfsnrli3szdnb4jggf",
+				"url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv93sNNS-WD1lHDfRv-Srr0-1As6HDBlc79Pb3wnfkW7ncKWseNZhcA7TIiSRg8P7PHys&usqp=CAU"
+			}
+		],
+		"category": "Sports",
+		"seller": "",
+		"stock": 50,
+		"numofReviews": 32,
+		"reviews": []
+	},
+	{
+		"name": "apple",
+		"price": "45.89",
+		"description": "ultra-fast card",
+		"rating": "4.5",
+		"images": [
+			{
+				"public_id": "products/tzfsnrli3szdnb4jggg",
+				"url": "https://5.imimg.com/data5/FI/DT/MY-41531855/dewalt-hand-drilling-machine-500x500.jpg"
+			}
+		],
+		"category": "Pets",
+		"seller": "",
+		"stock": 50,
+		"numofReviews": 132,
+		"reviews": []
+	},
+	{
+		"name": "dog",
+		"price": "45.89",
+		"description": "ultra-fast card",
+		"rating": "4.5",
+		"images": [
+			{
+				"public_id": "products/tzfsnrli3szdnb4jggh",
+				"url": "https://5.imimg.com/data5/ANDROID/Default/2021/4/BO/NU/AQ/12128902/product-jpeg.jpg"
+			}
+		],
+		"category": "Electronics",
+		"seller": "",
+		"stock": 50,
+		"numofReviews": 32,
+		"reviews": []
+	},
+	{
+		"name": "mini bus",
+		"price": "45.89",
+		"description": "ultra-fast card",
+		"rating": "4.5",
+		"images": [
+			{
+				"public_id": "products/tzfsnrli3szdnb4jggi",
+				"url": "https://m.media-amazon.com/images/I/61m1Dot5KCL._AC_SL1000_.jpg"
+			}
+		],
+		"category": "Accessories",
+		"seller": "",
+		"stock": 50,
+		"numofReviews": 32,
+		"reviews": []
+	},
+	{
+		"name": "cutie",
+		"images": [
+			{
+				"public_id": "/ptoducts/vfe&opi=89978449&ved=0CBIQjRxqFwoTCNi1hum-tIUDFQAAAAAdAAAAABAE",
+				"url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbuffer.com%2Flibrary%2Fbest-profile-picture-science-research-psychology%2F&psig=AOvVaw0PmEvrnH708vwROFzoX3_J&ust=1712730039002000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNi1hum-tIUDFQAAAAAdAAAAABAE",
+				"_id": "660f18fc45dff67fe6048662"
+			}
+		]
+	}
+]

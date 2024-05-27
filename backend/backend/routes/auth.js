@@ -16,7 +16,7 @@ const {
 
 router.route('/register').post(registerUser);
 
-router.route('/login').post(loginUser);
+router.route('/login').post(isAuthenticatedUser, loginUser);
 
 router.route('/logout').get(logout);
 

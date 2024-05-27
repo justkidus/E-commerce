@@ -54,6 +54,7 @@ export const newProduct = (productData) => async (dispatch) => {
 		dispatch({ type: NEW_PRODUCT_REQUEST });
 
 		const { data } = await axios.post('/api/v1/products/new', productData);
+
 		console.log(data);
 		dispatch({
 			type: NEW_PRODUCT_SUCCESS,

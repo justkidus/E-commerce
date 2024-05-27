@@ -16,9 +16,9 @@ const {
 	getProductReviews,
 } = require('../controllers/Authcontroller');
 
-router
-	.route('/products')
-	.get(isAuthenticatedUser, authorizeRoles('admin'), getProducts);
+// router
+// 	.route('/products')
+// 	.get(isAuthenticatedUser, authorizeRoles('admin'), getProducts);
 
 router.route('/products').get(getProducts);
 

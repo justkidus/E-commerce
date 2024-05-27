@@ -13,7 +13,7 @@ import {
 	LOGOUT_SUCCESS,
 } from '../constants/userConstants';
 
-export const authReducer = (state = { user: {} }, action) => {
+export const authReducer = (state = { user: [] }, action) => {
 	switch (action.type) {
 		case LOGIN_REQUEST:
 		case REGISTER_REQUEST:
